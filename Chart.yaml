@@ -1,0 +1,11 @@
+apiVersion: v2
+name: rocket-chat
+description: A Helm chart for running rocket-chat on Kubernetes
+type: application
+version: 1.0.0
+appVersion: "1.16.0"
+
+dependencies:
+- name: rocketchat
+  version: "^4.4.1"
+  repository: https://rocketchat.github.io/helm-charts
