@@ -178,7 +178,7 @@ rocketchat:
     type: NodePort
 
     ## Optional static port assignment for service type NodePort.
-     nodePort: 35000
+    nodePort: 35000
 
     port: 80
 
